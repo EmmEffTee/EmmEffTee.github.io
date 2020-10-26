@@ -23,11 +23,15 @@ function BookNow(guestName,guestEmail,guestPax){
     });
 }
 
-document.getElementById("bookNow").addEventListener("click", function(){
-    let name = document.getElementById("guestName").value;
-    let email = document.getElementById("guestEmail").value;
-    let pax = document.getElementById("guestPax").value;
-    let remarks = document.getElementById("guestRemarks").value;
-
-    console.log(name + ", " + email + ", " + pax + ", " + remarks);
+window.addEventListener("load", function(){
+    document.getElementById("bookNow").addEventListener("click", function(){
+        let name = document.getElementById("guestName").value;
+        let email = document.getElementById("guestEmail").value;
+        let pax = document.getElementById("guestPax").value;
+        let remarks = document.getElementById("guestRemarks").value;
+    
+        console.log(name + ", " + email + ", " + pax + ", " + remarks);
+    });
+    //n
 });
+
