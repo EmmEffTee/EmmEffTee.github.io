@@ -52,7 +52,7 @@ function DeleteBooking(id){
         method: 'DELETE',
       })
         .then((response) => {
-          location.reload;
+          location.reload();
         });
 
   } else {
