@@ -37,9 +37,26 @@ function GetBookings(){
         let el = document.getElementById(bookingIds[j]);
         el.addEventListener("click", function(){
           let theId = bookingIds[j].replace("delete","");
-          //DeleteBooking(theId);
+          DeleteBooking(theId);
         });
       }
       
     });
+}
+
+function DeleteBooking(id){
+
+  if(confirm("Are you sure you want to delete?")){
+    let url = 'https://api.sheety.co/52fd51b7982eaf677da56f9095c77e38/bookingApp/bookings/' + id;
+      fetch(url, {
+        method: 'DELETE',
+      })
+        .then((response) => {
+          GetBookings();
+        });
+
+  } else {
+    alert("Delete cancelled");
   }
+  
+}
