@@ -52,11 +52,15 @@ function DeleteBooking(id){
         method: 'DELETE',
       })
         .then((response) => {
+          let table = document.getElementById("booking-list");
+          for(let i = 1; i < table.rows.length; i++){
+              table.deleteRow(i);
+          }
           GetBookings();
         });
 
   } else {
-    alert("Delete cancelled");
+      alert("Delete cancelled");
   }
   
 }
