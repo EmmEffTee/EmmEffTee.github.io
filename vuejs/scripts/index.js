@@ -13,3 +13,10 @@ var app2 = new Vue({
         linkText: "Go to GoogleMY"
     }
 });
+
+var app3 = new Vue({
+    el: "#app-3",
+    data: {
+        seen: true
+    }
+});
