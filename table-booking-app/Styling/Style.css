@@ -6,11 +6,18 @@
 .jumbotron {
   background-image: url("/table-booking-app/Styling/KakiCoffee00.png");
   background-color: #cccccc;
-  height: 400px;
+  height: 350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+#jumboText {
+  width:90%;
+  margin: auto;
+  text-align:center;
+  background-color: rgba(204, 204, 204, 0.66);
 }
 
 /* fonts */
@@ -61,7 +68,7 @@ pre { font-family: Ubuntu;
 
 
 
-
+/*
 table, tr, td, th {
   border: 1px solid green;
   border-collapse:collapse;
@@ -74,4 +81,4 @@ th {
 }
 td:nth-child(3) {
   text-align:center;
-}
+}*/
