@@ -3,6 +3,11 @@
 /*put the images I want to use in the same folder, and point to "" <img src="Styling/KakiCoffee00.png" alt="hi" class="inline"/> ""*/
 
 /* Elements */
+body {
+  background: url("/table-booking-app/Styling/KakiCoffee01.jpg") no-repeat center fixed;     
+  background-size: cover;
+}
+
 .jumbotron {
   background-image: url("/table-booking-app/Styling/KakiCoffee00.png");
   background-color: #cccccc;
@@ -15,9 +20,10 @@
 
 #jumboText {
   width:90%;
-  margin: auto;
-  text-align:center;
-  background-color: rgba(204, 204, 204, 0.66);
+  margin: 1em 0.5em 1em 0.5em;
+  text-align:justify;
+  background-color: rgba(204, 204, 204, 0.33);
+  padding: 0.5em;
 }
 
 /* fonts */
