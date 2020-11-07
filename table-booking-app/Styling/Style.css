@@ -65,16 +65,25 @@ h3 {
   font-family: Ubuntu; 
   font-size: 17px; 
   font-style: normal; 
+  font-variant: bold; 
+  font-weight: 400; 
+  line-height: 23px; 
+} 
+
+p, dl { 
+  font-family: Ubuntu; 
+  font-size: 14px; 
+  font-style: normal; 
   font-variant: normal; 
   font-weight: 400; 
   line-height: 23px; 
 } 
 
-p, dl, dt { 
+dt { 
   font-family: Ubuntu; 
   font-size: 14px; 
   font-style: normal; 
-  font-variant: normal; 
+  font-variant: bold; 
   font-weight: 400; 
   line-height: 23px; 
 } 
