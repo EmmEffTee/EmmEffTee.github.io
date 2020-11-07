@@ -4,6 +4,7 @@ function BookNow(guestName,guestEmail,guestPax,guestRemarks){
       booking: {
         name:guestName,
         email:guestEmail,
+        phone:guestPhone,
         pax:guestPax,
         remarks:guestRemarks
       }
@@ -27,6 +28,7 @@ window.addEventListener("load", function(){
     document.getElementById("bookNow").addEventListener("click", function(){
         let name = document.getElementById("guestName").value;
         let email = document.getElementById("guestEmail").value;
+        let phone = document.getElementById("guestPhone").value;
         let pax = document.getElementById("guestPax").value;
         let remarks = document.getElementById("guestRemarks").value;
     

@@ -9,7 +9,7 @@ body {
   background-color: #6f4e37 ;
 }
 
-navbar {
+.navbar {
   background-color: #d0bb94 ;
 }
 
@@ -72,7 +72,7 @@ blockquote {
   line-height: 23px; 
 } 
 
-pre, table { font-family: Ubuntu; 
+pre { font-family: Ubuntu; 
   font-size: 11px; 
   font-style: normal; 
   font-variant: normal; 
@@ -80,7 +80,15 @@ pre, table { font-family: Ubuntu;
   line-height: 23px; 
 }
 
-
+table, th, tr { 
+  font-family: Ubuntu; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 23px; 
+  color: white;
+} 
 
 
 
