@@ -16,7 +16,7 @@ function GetBookings(){
       for(var i = 0; i < json.bookings.length; i++){
         var gName = json.bookings[i].name;
         var gEmail = json.bookings[i].email;
-        //var gPhone = json.bookings[i].phone;
+        var gPhone = json.bookings[i].phone;
         var gPax = json.bookings[i].pax;
         var gId = json.bookings[i].id;
         var gRemarks = json.bookings[i].remarks;
@@ -26,9 +26,10 @@ function GetBookings(){
         row.insertCell(0).innerHTML = gId;
         row.insertCell(1).innerHTML = gName;
         row.insertCell(2).innerHTML = gEmail;
-        row.insertCell(3).innerHTML = gPax;
-        row.insertCell(4).innerHTML = gRemarks; //Remarks
-        row.insertCell(5).innerHTML = "<button id='" + buttonId + "' class='btn btn-danger'>Delete</button><br/>";
+        row.insertCell(3).innerHTML = gPhone;
+        row.insertCell(4).innerHTML = gPax;
+        row.insertCell(5).innerHTML = gRemarks; //Remarks
+        row.insertCell(6).innerHTML = "<button id='" + buttonId + "' class='btn btn-danger'>Delete</button><br/>";
 
         
         bookingIds.push(buttonId);

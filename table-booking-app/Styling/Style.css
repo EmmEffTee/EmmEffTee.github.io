@@ -9,7 +9,7 @@ body {
   background-color: #6f4e37 ;
 }
 
-.navbar, .bg-light {
+.navbar, #navBG {
   background-color: #d0bb94 ;
 }
 
@@ -95,7 +95,7 @@ table, th {
 } 
 
 tr {
-  
+
 }
 
 

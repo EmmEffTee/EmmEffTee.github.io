@@ -28,11 +28,11 @@ window.addEventListener("load", function(){
     document.getElementById("bookNow").addEventListener("click", function(){
         let name = document.getElementById("guestName").value;
         let email = document.getElementById("guestEmail").value;
-        //let phone = document.getElementById("guestPhone").value;
+        let phone = document.getElementById("guestPhone").value;
         let pax = document.getElementById("guestPax").value;
         let remarks = document.getElementById("guestRemarks").value;
     
-        BookNow(name,email, pax, remarks);
+        BookNow(name, email, phone, pax, remarks);
     });
     //n
 });
