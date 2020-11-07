@@ -4,8 +4,13 @@
 
 /* Elements */
 body {
-  background: url("/table-booking-app/Styling/KakiCoffee01.jpg") no-repeat center fixed;     
-  background-size: cover;
+  /* background: url("/table-booking-app/Styling/KakiCoffee01.jpg") no-repeat center fixed;     
+  background-size: cover;*/
+  background-color: #6f4e37 ;
+}
+
+navbar {
+  background-color: #d0bb94 ;
 }
 
 .jumbotron {
@@ -20,9 +25,9 @@ body {
 
 #jumboText {
   width:90%;
-  margin: 1em 0.5em 1em 0.5em;
+  margin: 1em 0.5em 1em 0.45em;
   text-align:justify;
-  background-color: rgba(204, 204, 204, 0.33);
+  background-color: rgba(204, 204, 204, 0.55);
   padding: 0.5em;
 }
 
@@ -39,6 +44,7 @@ h1 {
   font-weight: 400; 
   line-height: 23px; 
 } 
+
 h3 { 
   font-family: Ubuntu; 
   font-size: 17px; 
@@ -46,7 +52,9 @@ h3 {
   font-variant: normal; 
   font-weight: 400; 
   line-height: 23px; 
-} p { 
+} 
+
+p { 
   font-family: Ubuntu; 
   font-size: 14px; 
   font-style: normal; 
@@ -54,6 +62,7 @@ h3 {
   font-weight: 400; 
   line-height: 23px; 
 } 
+
 blockquote { 
   font-family: Ubuntu; 
   font-size: 17px; 
@@ -62,7 +71,8 @@ blockquote {
   font-weight: 400; 
   line-height: 23px; 
 } 
-pre { font-family: Ubuntu; 
+
+pre, table { font-family: Ubuntu; 
   font-size: 11px; 
   font-style: normal; 
   font-variant: normal; 
