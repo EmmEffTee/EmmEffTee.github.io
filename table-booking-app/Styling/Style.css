@@ -40,6 +40,10 @@ body {
   padding: auto;
 }
 
+#menuBoxes {
+  width: 70%;
+}
+
 /* fonts */
 .nav-link {
   font-family: Ubuntu;
@@ -63,7 +67,7 @@ h3 {
   line-height: 23px; 
 } 
 
-p, dl { 
+p, dl, dt { 
   font-family: Ubuntu; 
   font-size: 14px; 
   font-style: normal; 
