@@ -9,7 +9,7 @@ body {
   background-color: #6f4e37 ;
 }
 
-.navbar {
+.navbar, .bg-light {
   background-color: #d0bb94 ;
 }
 
@@ -29,6 +29,10 @@ body {
   text-align:justify;
   background-color: rgba(204, 204, 204, 0.55);
   padding: 0.5em;
+}
+
+#menuList {
+  background-color: #d0bb94 ;
 }
 
 /* fonts */
@@ -80,7 +84,7 @@ pre { font-family: Ubuntu;
   line-height: 23px; 
 }
 
-table, th, tr { 
+table, th { 
   font-family: Ubuntu; 
   font-size: 14px; 
   font-style: normal; 
@@ -89,6 +93,10 @@ table, th, tr {
   line-height: 23px; 
   color: white;
 } 
+
+tr {
+  
+}
 
 
 
