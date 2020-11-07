@@ -6,7 +6,7 @@
 .jumbotron {
   background-image: url("/table-booking-app/Styling/KakiCoffee00.png");
   background-color: #cccccc;
-  height: 300px;
+  height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,6 +14,10 @@
 }
 
 /* fonts */
+.nav-link {
+  font-family: Ubuntu;
+}
+
 h1 { 
   font-family: Ubuntu; 
   font-size: 23px; 
